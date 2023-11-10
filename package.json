@@ -1,0 +1,13 @@
+{
+  "name": "hunt-randomizer",
+  "version": "1.0.0",
+  "description": "Hunt Showdown Class Randomizer Website",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "Kevin McKinnis, Cory Slaught, Evan Cooper",
+  "license": "ISC"
+
+}

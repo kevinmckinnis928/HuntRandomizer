@@ -1,0 +1,42 @@
+,Weapon,Cost,Unlock Condition,Ammunition
+0,Bomb Lance,199$,Rank 78,Special (others)
+4,Caldwell Rival 78,100$,Rank 18,Shotgun
+8,Crossbow,50$,Unlock Hand Crossbow Poison and then earn 1500XP with any Hand Crossbow variant,Special (others)
+12,Crown & King Auto-5,600$,Rank 82,Shotgun
+16,Lebel 1886,397$,Rank 52,Long
+20,Lebel 1886 Marksman,437$,Unlock Lebel 1886 Talon and then earn 3000XP with any Lebel 1886 variant,Long
+24,Lebel 1886 Talon,422$,Unlock Lebel 1886 and then earn 2000XP with any Lebel 1886 variant,Long
+28,Martini-Henry IC1,122$,Rank 16,Long
+32,Martini-Henry IC1 Deadeye,145$,Unlock Martini-Henry IC1 and then earn 1000XP with any Martini-Henry IC1 variant,Long
+36,Martini-Henry IC1 Marksman,173$,Unlock Martini-Henry IC1 Riposte and then earn XP with any Martini-Henry IC1 variant,Long
+40,Martini-Henry IC1 Riposte,164$,Unlock Martini-Henry IC1 Deadeye and then earn 1500XP with any Martini-Henry IC1 variant,Long
+44,Mosin-Nagant M1891,490$,Rank 72,Long
+48,Mosin-Nagant M1891 Avtomat,1250$,Unlock Mosin-Nagant M1891 Sniper and then earn 5000XP with any Mosin-Nagant M1891 variant,Long
+52,Mosin-Nagant M1891 Bayonet,540$,Unlock Mosin-Nagant M1891 Obrez and then earn 2000XP with any Mosin-Nagant M1891 variant,Long
+56,Mosin-Nagant M1891 Sniper,550$,Unlock Mosin-Nagant M1891 Obrez Mace and then earn 3000XP with any Mosin-Nagant M1891 variant,Long
+60,Nagant M1895 Officer Carbine,155$,Unlock Nagant M1895 Officer Brawler and then earn 2000XP with any Nagant M1895 Officer variant,Compact
+64,Nagant M1895 Officer Carbine Deadeye,211$,Unlock Nagant M1895 Officer Carbine and then earn 2500XP with any Nagant M1895 Officer variant,Compact
+68,Nitro Express Rifle,1015$,Rank 88,Special
+72,Romero 77,34$,Rank 1,Shotgun
+76,Romero 77 Talon,59$,Unlock Romero 77 Handcannon and then earn 750XP with any Romero 77 variant,Shotgun
+80,Sparks LRR,130$,Rank 26,Long
+84,Sparks LRR Silencer,150$,Unlock Sparks LRR and then earn 1000XP with any Sparks LRR variant,Long
+88,Sparks LRR Sniper,199$,Unlock Sparks LRR Silencer and then earn 3000XP with any Sparks LRR variant,Long
+92,Specter 1882,188$,Rank 58,Shotgun
+96,Specter 1882 Bayonet,223$,Unlock Specter 1882 Compact and then earn 2000XP with any Specter 1882 variant,Shotgun
+100,Springfield 1866,38$,Rank 1,Medium
+104,Springfield 1866 Marksman,73$,Unlock Springfield 1866 and then earn 250XP with any Springfield 1866 variant,Medium
+108,Vetterli 71 Karabiner,105$,Rank 6,Medium
+112,Vetterli 71 Karabiner Bayonet,155$,Unlock Vetterli 71 Karabiner Deadeye and then earn750XP with any Vetterli 71 Karabiner variant,Medium
+116,Vetterli 71 Karabiner Deadeye,130$,Unlock Vetterli 71 Karabiner and then earn 500XP with any Vetterli 71 Karabiner variant,Medium
+120,Winfield 1887 Terminus,309$,Rank 64,Shotgun
+124,Winfield M1873,75$,Rank 42,Compact
+128,Winfield M1873 Aperture,80$,Unlock Winfield M1873 and then earn 1000XP with any Winfield M1873 variant,Compact
+132,Winfield M1873 Musket Bayonet,137$,Unlock Winfield M1873 Swift and then earn 2500XP with any Winfield M1873 variant,Compact
+136,Winfield M1873 Swift,128$,Unlock Winfield M1873 Talon and then earn 2000XP with any Winfield M1873 variant,Compact
+140,Winfield M1873 Talon,100$,Unlock Winfield M1873 Aperture and then earn 1500XP with any Winfield M1873 variant,Compact
+144,Winfield M1873C,41$,Rank 1,Compact
+148,Winfield M1873C Marksman,56$,Unlock Winfield M1873C Silencer and then earn 500XP with any Winfield M1873C variant,Compact
+152,Winfield M1873C Silencer,55$,Unlock Winfield M1873C and then earn 250XP with any Winfield M1873C variant,Compact
+156,Winfield M1876 Centennial,157$,Rank 58,Medium
+160,Winfield M1876 Centennial Sniper,229$,Unlock Winfield M1876 FMJ and then earn 1500XP with any Winfield M1876 Centennial variant,Medium
