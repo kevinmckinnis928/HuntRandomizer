@@ -67,8 +67,23 @@ function createLoadout(quartermaster, forceMedKit, forceMelee) {
 	}
 	weaponSlotTotal -= ws1.slotsUsed;
 	//Create the second weapon
+	var weapon2 = getRandomWeapon();
+    while (weapon2.slots > weaponSlotTotal) {
+    	weapon2 = getRandomWeapon();
+    }
+    ws2 = new WeaponSlot(weapon2, weapon2.slots, false);
 
-	var loadout = new Loadout(ws1, null, null, null);
+    //create the tools list
+    var tL = [];
+    if (forceMedKit == true) {
+    	tL.push(new Tool("First Aid Kit", 5));
+    }
+    if (forceMelee == true) {
+
+    }
+
+
+	var loadout = new Loadout(ws1, ws2, null, null);
 	//return 0;
 	return loadout;
 }
