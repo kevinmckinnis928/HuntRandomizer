@@ -48,7 +48,7 @@ function createLoadout(quartermaster, forceMedKit, forceMelee) {
 	var ws1, ws2, consumables, tools;
 	//Check for quartermaster
 	var weaponSlotTotal = 4;
-	if (quartermaster) {
+	if (quartermaster == true) {
 		weaponSlotTotal = 5;
 	}
 	//Create first weapon and assign it a randomly generated slot
@@ -94,9 +94,21 @@ function createLoadout(quartermaster, forceMedKit, forceMelee) {
     			tL.push(new Tool("Dusters", 15));
     	}
     }
+    //Fill out any remaining spots in Tool list
+    while (tL.length < 4) {
+    	var found = false;
+    	const randomTool = getRandomTool();
+    	for (let i = 0; i < tL.length; i++) {
+    		if (tL[i].name == randomTool.name) {
+    			found = true;
+    		}
+    	}
+    	if (found == false) {
+    		tL.push(randomTool);
+    	}
+    }
 
-
-	var loadout = new Loadout(ws1, ws2, null, null);
+	var loadout = new Loadout(ws1, ws2, tL, null);
 	//return 0;
 	return loadout;
 }
@@ -145,4 +157,4 @@ function csvToArr(fileName) {
 }
 //console.log(csvToArr('weapons.csv'));
 //console.log(getRandomWeapon());
-console.log(createLoadout(1, 0, 0));
+console.log(createLoadout(true, false, true));
