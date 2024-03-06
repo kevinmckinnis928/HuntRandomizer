@@ -78,8 +78,21 @@ function createLoadout(quartermaster, forceMedKit, forceMelee) {
     if (forceMedKit == true) {
     	tL.push(new Tool("First Aid Kit", 5));
     }
+    //LEFT OFF HERE
     if (forceMelee == true) {
-
+    	switch (Math.floor(Math.random() * 4)) {
+    		case 0:
+    			tL.push(new Tool("Knife", 30));
+    			break;
+    		case 1:
+    			tL.push(new Tool("Heavy Knife", 20));
+    			break;
+    		case 2:
+    			tL.push(new Tool("Knuckle Knife", 15));
+    			break;
+    		case 3:
+    			tL.push(new Tool("Dusters", 15));
+    	}
     }
 
 
